@@ -20,6 +20,23 @@ Current state:
 - AGENTSTORM feature for creative brainstorming sessions
 - Customizable project setups and agent configurations
 
+## Setup Instructions
+
+To run MasterMindGPT-2, follow these steps:
+
+1. Ensure you have Python 3.9.13 installed. You can download it from [python.org](https://www.python.org/downloads/release/python-3913/).
+
+2. Clone this repository
+
+3. Create a virtual environment (optional but recommended):
+python -m venv venv source venv/bin/activate # On Windows, use venv\Scripts\activate
+
+4. Install the required libraries:
+pip install customtkinter tkinter
+
+5. Run the script:
+python Main.py
+
 ## How to Use:
 
 1. Run the script: `Main.py`
